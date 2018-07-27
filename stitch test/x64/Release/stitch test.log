@@ -1,0 +1,18 @@
+﻿生成启动时间为 2018/7/11 星期三 10:31:37。
+     1>项目“C:\Users\Administrator\documents\visual studio 2013\Projects\stitch test\stitch test\stitch test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\softwareinstall\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "源.cpp"
+         源.cpp
+     1>源.cpp(23): warning C4005: “ENABLE_LOG”: 宏重定义
+                 e:\softwareinstall\opencv2413\build_x64\include\opencv2\stitching\detail\util.hpp(49) : 参见“ENABLE_LOG”的前一个定义
+     1>源.cpp(53): warning C4244: “初始化”: 从“int64”转换到“double”，可能丢失数据
+       Link:
+         E:\softwareinstall\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2013\Projects\stitch test\x64\Release\stitch test.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_videostab2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\documents\visual studio 2013\Projects\stitch test\x64\Release\stitch test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2013\Projects\stitch test\x64\Release\stitch test.lib" /MACHINE:X64 "x64\Release\源.obj"
+         正在生成代码
+         已完成代码的生成
+         stitch test.vcxproj -> C:\Users\Administrator\documents\visual studio 2013\Projects\stitch test\x64\Release\stitch test.exe
+     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2013\Projects\stitch test\stitch test\stitch test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.21
